@@ -23,10 +23,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 /*Pegando os objetos das telas e salvando em variáveis*/
                 EditText etDigiteAqui = findViewById(R.id.etDigiteAqui);
+                /*pegando o texto digitado*/
                 String textoDigitado = etDigiteAqui.getText().toString();
+                /*limpando o campo*/
                 etDigiteAqui.setText("");
+                /*Declarando a intenção de mudar de Activity*/
                 Intent i= new Intent(MainActivity.this,NextActivity.class);
+                /*Passando parâmetros para a intenção*/
                 i.putExtra("Texto",textoDigitado);
+                /*abrindo a nova activity*/
                 startActivity(i);
             }
         });
