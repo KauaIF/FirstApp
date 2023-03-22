@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">APP_NAME</string>
+    <string name="et_texto_hint">digite alguma coisa aqui</string>
+    <string name="btn_Enviar">ENVIAR</string>
+    <string name="btn_Voltar">Voltar</string>
+</resources>

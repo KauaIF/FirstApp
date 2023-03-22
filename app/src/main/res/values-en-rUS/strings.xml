@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP_NAME</string>
+    <string name="btnEnviar">Send</string>
+    <string name="et_texto_hint">et_text_hint</string>
+</resources>
